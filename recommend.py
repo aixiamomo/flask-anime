@@ -2,7 +2,6 @@
 from random import choice
 import MySQLdb
 
-
 def recommend(user):
     # 连接数据库
     DB = MySQLdb.connect("localhost", "root", "qq920534583", "recommend")

@@ -2,7 +2,6 @@
 from random import choice
 import MySQLdb
 
-
 def recommend(user):
     try:
         # 连接数据库
